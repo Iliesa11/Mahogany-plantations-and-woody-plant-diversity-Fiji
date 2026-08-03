@@ -3,7 +3,6 @@
 # Native Forests in Fiji
 #
 # Authors: Iliesa Koroi, Ole R. Vetaas, Tamara Osborne-Naikatini
-# Target journal: Pacific Science
 #
 # This script reproduces all analyses, figures, tables, and appendices
 # reported in the manuscript. Run sections sequentially; all objects
