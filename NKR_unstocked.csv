@@ -1,0 +1,214 @@
+Transect,Plot,Species,DBH,Seedlings,Abundance,Climbers,Number
+1,1,Gadoa,28.1,African tulip,1,Wadamu,1
+1,1,Mahogany,87.7,Cagolaya,7,Yalu,1
+1,3,Dead,14.3,Cagolaya,3,Yalu,1
+1,4,Maesopsis,31.5,Cagolaya,1,Yalu,1
+1,5,Maesopsis,28.3,Clidermia,1,Tivoli,1
+1,1,Mahogany,10.9,Mahogany,6,Yalu,1
+1,2,Mahogany,12.8,Mahogany,2,,
+1,4,Maesopsis,17.5,Mahogany,2,Wadamu,1
+1,5,dead,22.1,Mahogany,4,Yalu,1
+1,2,Mahogany,14.9,Sasawira,1,Wame,1
+1,3,Kuluva,12.2,Vutu,1,Wadamu,1
+1,5,dead,18.1,Vutu,1,Wame,1
+1,2,Kuluva,15.1,,,,
+1,1,Tavola,18,,,Wadamu,1
+1,1,Dawa,12.9,,,,
+1,1,Dawa,11.5,,,,
+1,1,Mahogany,32.2,,,,
+1,1,Vesiwai,29.4,,,,
+1,1,Uto,16.4,,,,
+1,1,Saqiwa,10.4,,,,
+1,1,Uto,20.4,,,,
+1,2,Mahogany,20.6,,,,
+1,2,Mahogany,11,,,,
+1,2,Mahogany,15.4,,,,
+1,2,Standing dead,13.2,,,,
+1,2,Standing dead,12,,,,
+1,2,Standing dead,13,,,,
+1,2,Mahogany,15.3,,,,
+1,2,Mahogany,61.5,,,,
+1,2,Mahogany,18.5,,,,
+1,2,Mahogany,12.3,,,,
+1,3,Koka,15.6,,,Birds nest fern,1
+1,3,Mahogany,20.3,,,,
+1,3,Mahogany,16.4,,,,
+1,3,Dawa,10.9,,,,
+1,3,Sisisi,12.2,,,,
+1,3,Dawa,11.4,,,,
+1,3,Dawa,30.5,,,,
+1,3,Niuniu,25.2,,,,
+1,3,Niuniu,27.7,,,,
+1,3,Mahogany,14.4,,,,
+1,3,Dawa,10,,,,
+1,3,Koka,23.4,,,,
+1,4,Dead,28.6,,,Wakau,1
+1,4,Mahogany,32,,,Birds nest fern,1
+1,4,Laubu,30.1,,,Duva,1
+1,4,Maesopsis,29,,,,
+1,4,Mahogany,54.7,,,,
+1,4,Maesopsis,18.8,,,,
+1,4,Kaukaro,27.9,,,,
+1,4,Maesopsis,42.8,,,,
+1,4,Mahogany,12.3,,,,
+1,4,Lidi,16.4,,,,
+1,5,Sasawira,15.6,,,,
+1,5,Maesopsis,26.6,,,,
+1,5,Maesopsis,21.2,,,,
+1,5,Mahogany,11.5,,,,
+1,5,Maesopsis,25.5,,,,
+1,5,Mahogany,53.6,,,,
+1,5,Mahogany,26.3,,,,
+2,3,Mahogany,34,Clidermia,8,Wame,1
+2,2,African tulip,18,Clidermia,7,Voco,1
+2,4,Kadaba,32,Clidermia,5,Wadamu,1
+2,5,Kuluva,10,Clidermia,5,Yalu,1
+2,3,Mahogany,45,Mahogany,2,Voco,1
+2,1,Yasiyasi,20.7,Mahogany,1,Tivoli,1
+2,2,African tulip,12,Mahogany,1,Walai,1
+2,4,Sacau,24,Mahogany,2,Yalu,1
+2,5,Yaro,11,Mahogany,2,Wadamu,1
+2,1,Dalovoci,27.7,Makita,1,Yalu,1
+2,2,African tulip,14,Vueti Naitasiri,1,,
+2,3,Mahogany,24,Vutu,1,Walai,1
+2,5,Kuluva,22,,,,
+2,5,Kuluva,18,,,Wame,1
+2,1,Yasiyasi,16.9,,,Flagellaria,1
+2,1,Kauvula,35.5,,,Wame,1
+2,1,Makita,12.2,,,Birds nest fern,1
+2,1,Makita,12.6,,,,
+2,1,Makita,13.6,,,,
+2,1,Yasiyasi,10.5,,,,
+2,2,African tulip,24,,,,
+2,2,African tulip,26,,,,
+2,2,African tulip,20,,,,
+2,2,African tulip,28,,,,
+2,2,African tulip,32,,,,
+2,2,African tulip,24,,,,
+2,2,Mahogany,11,,,,
+2,2,Mahogany,18,,,,
+2,2,Mahogany,16,,,,
+2,2,Mahogany,18,,,,
+2,2,Mahogany,24,,,,
+2,2,Mahogany,12,,,,
+2,2,Mahogany,30,,,,
+2,2,Mahogany,32,,,,
+2,2,Mahogany,34,,,,
+2,2,Mahogany,34,,,,
+2,2,Kadaba,10,,,,
+2,2,Cordia,24,,,,
+2,2,Cordia,18,,,,
+2,2,Cordia,24,,,,
+2,2,Cordia,32,,,,
+2,2,Cordia,22,,,,
+2,2,Kuluva,18,,,,
+2,2,Gadoa,12,,,,
+2,2,Mako,36,,,,
+2,3,Kauvula,35,,,,
+2,3,Kauvula,28,,,,
+2,3,Kauvula,25,,,,
+2,3,Kauvula,32,,,,
+2,3,Sisisi,12,,,,
+2,3,Sacau,14,,,,
+2,3,Sacau,18,,,,
+2,3,balabala,10,,,,
+2,3,Vutu,28,,,,
+2,3,Vutu,20,,,,
+2,3,Rosarosa,28,,,,
+2,3,Rosarosa,18,,,,
+2,4,Kadaba,18,,,Wame,1
+2,4,Cordia,24,,,,
+2,4,Cordia,23,,,,
+2,4,Cordia,12,,,,
+2,4,Cordia,18,,,,
+2,4,Mahogany,31,,,,
+2,4,Mahogany,18,,,,
+2,4,Mahogany,16,,,,
+2,4,Kauvula,24,,,,
+2,4,Kauvula,18,,,,
+2,4,Sole,10,,,,
+2,5,Kuluva,12,,,,
+2,5,balabala,10,,,,
+2,5,balabala,10,,,,
+2,5,balabala,10,,,,
+2,5,Maesopsis,21,,,,
+2,5,Bau ,10,,,,
+2,5,Kauvula,28,,,,
+2,5,Laubu,14,,,,
+2,5,Mahogany,11,,,,
+3,1,Mako,28,Clidermia,3,Wadamu,1
+3,2,Mahogany,22,Clidermia,4,Wadamu,1
+3,3,Kauvula,35,Clidermia,2,Yalu,1
+3,4,Kauvula,21,Clidermia,3,Yalu,1
+3,5,Rosarosa,11,Clidermia,1,Wadamu,1
+3,1,Kauvula,32,Kuluva,2,Wame,1
+3,1,Kauvula,24,Mahogany,3,Yalu,1
+3,3,Kauvula,48,Mavota,5,Wadamu,1
+3,5,Kuluva,16,Vasa,1,,
+3,2,Sacau,10,Vutu,2,Yalu,1
+3,4,Kauvula,45,Vutu,2,Wadamu,1
+3,5,Kuluva,18,,,Wame,1
+3,2,Kauvula,45,,,Wame,1
+3,3,Kauvula,32,,,Wame,1
+3,4,Kauvula,18,,,Wame,1
+3,5,Kauvula,38,,,Yalu,1
+3,1,Kauvula,38,,,,
+3,1,Kauvula,32,,,,
+3,1,Kauvula,30,,,,
+3,1,Cordia,14,,,,
+3,1,Laubu,16,,,,
+3,1,balabala,10,,,,
+3,1,balabala,15,,,,
+3,1,African tulip,16,,,,
+3,1,African tulip,12,,,,
+3,1,Mahogany,21,,,,
+3,1,Maesopsis,33,,,,
+3,1,Vasa ni veikau,13,,,,
+3,1,Vutu,12,,,,
+3,2,Kauvula,38,,,,
+3,2,Kauvula,26,,,,
+3,2,Kauvula,32,,,,
+3,2,Kauvula,33,,,,
+3,2,Kauvula,45,,,,
+3,2,Gadoa,10,,,,
+3,2,Gadoa,20,,,,
+3,2,Vutu,12,,,,
+3,2,balabala,10,,,,
+3,2,Bau ,23,,,,
+3,3,Kauvula,18,,,warusi,1
+3,3,Mahogany,12,,,,
+3,3,Sacau,12,,,,
+3,3,Sisisi,14,,,,
+3,3,Makita,12,,,,
+3,3,Tadalo,16,,,,
+3,3,Kuluva,10,,,,
+3,3,Mavota,14,,,,
+3,3,Yasiyasi,14,,,,
+3,3,Kaudamu,24,,,,
+3,3,Vutu,16,,,,
+3,4,Kauvula,16,,,,
+3,4,Kadaba,40,,,,
+3,4,Kadaba,18,,,,
+3,4,Mahogany,10,,,,
+3,4,Kaudamu,11,,,,
+3,4,Kaudamu,14,,,,
+3,4,Vutu,11,,,,
+3,4,Vutu,14,,,,
+3,4,Vutu,20,,,,
+3,4,Vutu,28,,,,
+3,4,balabala,10,,,,
+3,4,balabala,10,,,,
+3,4,Rosarosa,11,,,,
+3,5,Kuluva,12,,,,
+3,5,Kuluva,15,,,,
+3,5,Vasa ni veikau,14,,,,
+3,5,Vasa ni veikau,12,,,,
+3,5,Mahogany,40,,,,
+3,5,Mahogany,28,,,,
+3,5,Mahogany,14,,,,
+3,5,Mahogany,24,,,,
+3,5,Mahogany,21,,,,
+3,5,Mahogany,18,,,,
+3,5,Vutu,10,,,,
+3,5,Yasiyasi,16,,,,
+3,5,Makita,11,,,,

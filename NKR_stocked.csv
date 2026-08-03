@@ -1,0 +1,224 @@
+Transect,Plot,Species,DBH,Seedlings,Abundance,Climbers,Number
+1,1,Mahogany,10.3,Bau,1,Yalu,1
+1,1,Mahogany,12.4,Mahogany,1,Wadamu,1
+1,1,Mahogany,27.3,,,Wame,1
+1,1,Mahogany,32.3,,,,
+1,1,Mahogany,23.5,,,,
+1,1,Mahogany,14.2,,,,
+1,1,Mahogany,11.5,,,,
+1,1,Mahogany,18.6,,,,
+1,1,Mahogany,43.2,,,,
+1,1,Bauvudi,18.2,,,,
+1,1,Mahogany,17,,,,
+1,1,Mahogany,14.1,,,,
+1,1,Mahogany,14.5,,,,
+1,1,Mahogany,10.5,,,,
+1,1,Mahogany,25,,,,
+1,1,Mahogany,10.7,,,,
+1,1,Dead,10.2,,,,
+1,1,Dead,19.2,,,,
+1,2,African tulip,36.4,Mavota,1,Wadamu,1
+1,2,African tulip,17.5,Vutu,1,Yalu,1
+1,2,Mahogany,15.9,,,Wame,1
+1,2,Balabala,17.4,,,,
+1,2,Sisisi,15,,,,
+1,2,Balabala,15.3,,,,
+1,2,Mahogany,16.3,,,,
+1,2,Mahogany,13.5,,,,
+1,2,Bau ,16.9,,,,
+1,2,Mahogany,13.6,,,,
+1,2,Mahogany,10.4,,,,
+1,2,Mahogany,12.9,,,,
+1,2,African tulip,16.3,,,,
+1,2,Mahogany,46.8,,,,
+1,3,African tulip,28,Balabala,2,Wame,1
+1,3,African tulip,14,Kuluva,1,Wadamu,1
+1,3,African tulip,34,Mahogany,3,Yalu,1
+1,3,African tulip,16,Mahogany,3,Wadamu,1
+1,3,Mahogany,18,,,,
+1,3,African tulip,29,,,,
+1,3,African tulip,48,,,,
+1,3,Gadoa,18,,,,
+1,3,Vutu,24,,,,
+1,3,Vutu,18,,,,
+1,4,African tulip,45,Makita,1,Yalu,1
+1,4,African tulip,22,,,Wame,1
+1,4,African tulip,19,,,,
+1,4,African tulip,39,,,,
+1,4,Kaudamu,18,,,,
+1,4,Mahogany,24,,,,
+1,4,Mahogany,28,,,,
+1,4,Mahogany,43,,,,
+1,4,Mahogany,18,,,,
+1,4,Mahogany,22,,,,
+1,4,Mahogany,45,,,,
+1,4,Mahogany,29,,,,
+1,4,Sorua levu,18,,,,
+1,4,Makita,14,,,,
+1,4,Kadaba,45,,,,
+1,4,Sa,14,,,,
+1,4,Sole,12,,,,
+1,5,African tulip,18,Kaudamu,1,Wame,1
+1,5,Kuluva,12,Kuluva,1,Wadamu,1
+1,5,African tulip,10,Mahogany,1,,
+1,5,Mako,42,Vutu,1,Yalu,1
+1,5,African tulip,12,,,,
+1,5,African tulip,24,,,,
+1,5,African tulip,20,,,,
+1,5,African tulip,19,,,,
+1,5,African tulip,22,,,,
+1,5,African tulip,38,,,,
+1,5,Balabala,10,,,,
+2,1,Nunu,18,Kaudamu,2,Yalu,1
+2,4,Makita,14,Kaudamu,2,Wame,1
+2,5,Mahogany,38,Kaudamu,2,Yalu,1
+2,1,Nunu,18,Kuluva,2,Wame,1
+2,3,Mahogany,28,Mahogany,2,Yalu,1
+2,5,Mahogany,45,Mahogany,3,,
+2,4,Makita,19,Makita,2,Wadamu,1
+2,2,Mahogany,14,Mavota,1,Wadamu,1
+2,5,Mahogany,65,Nunu,2,Wadamu,1
+2,4,Makita,16,Sasawira,1,Yalu,1
+2,4,Kaudamu,14,Sole,1,,
+2,3,Mahogany,23,Vasa ni veikau,2,Wadamu,1
+2,1,Lidi,22,,,Wadamu,1
+2,2,Mahogany,17,,,Yalu,1
+2,3,Mahogany,45,,,Wame,1
+2,4,Kaudamu,18,,,,
+2,5,Mahogany,42,,,Wame,1
+2,1,African tulip,18,,,,
+2,1,Mahogany ,24,,,,
+2,1,Mahogany ,22,,,,
+2,1,Mahogany ,12,,,,
+2,1,Mahogany ,48,,,,
+2,1,Mahogany ,24,,,,
+2,1,Mahogany ,14,,,,
+2,1,Mahogany ,18,,,,
+2,1,Vutu,18,,,,
+2,1,Vutu,12,,,,
+2,1,Kaudamu,10,,,,
+2,1,Sasawira,12,,,,
+2,1,Gadoa,14,,,,
+2,1,Kadaba,54,,,,
+2,1,Balabala,14,,,,
+2,2,Mahogany,12,,,Wame,1
+2,2,Mahogany,13,,,,
+2,2,Makita,,,,,
+2,2,Sisisi,,,,,
+2,2,African tulip,,,,,
+2,3,Mahogany,56,,,,
+2,3,Mahogany,45,,,,
+2,3,Mahogany,54,,,,
+2,3,Makita,16,,,,
+2,3,Makita,18,,,,
+2,3,Makita,16,,,,
+2,3,Makita,12,,,,
+2,3,Makita,12,,,,
+2,3,Makita,10,,,,
+2,3,Makita,14,,,,
+2,3,Balabala,18,,,,
+2,3,Vutu,12,,,,
+2,3,Vutu,18,,,,
+2,4,African tulip,20,,,,
+2,4,Vutu,18,,,,
+2,4,Mahogany,22,,,,
+2,4,Mahogany,32,,,,
+2,4,Mahogany,34,,,,
+2,4,Mahogany,38,,,,
+2,4,Vueti Naitasiri,14,,,,
+2,4,Vasa ni veikau,13,,,,
+2,5,Mahogany,49,,,,
+2,5,Mahogany,55,,,,
+2,5,Vutu,32,,,,
+2,5,Vutu,24,,,,
+2,5,Kaudamu,32,,,,
+2,5,Vasa ni veikau,18,,,,
+2,5,Kuluva,14,,,,
+3,1,Mahogany,22,Clidermia,1,Wame,1
+3,1,Mahogany,16,Mavota,1,Yalu,1
+3,1,Mahogany,18,,,Wadamu,1
+3,1,Mahogany,45,,,,
+3,1,Mahogany,32,,,,
+3,1,Mahogany,24,,,,
+3,1,Mahogany,25,,,,
+3,1,Mahogany,24,,,,
+3,1,Mahogany,22,,,,
+3,1,Mahogany,29,,,,
+3,1,Mahogany,45,,,,
+3,1,Mahogany,32,,,,
+3,1,Kaudamu,18,,,,
+3,1,Nunu,14,,,,
+3,1,Nunu,22,,,,
+3,1,African tulip,12,,,,
+3,1,Vutu,12,,,,
+3,1,Kuluva,14,,,,
+3,1,Makita,14,,,,
+3,2,Maesopsis,24,Clidermia,3,Wadamu,1
+3,2,Maesopsis,32,Maesopsis,6,Yalu,1
+3,2,Mahogany,18,Mahogany,4,Wame,1
+3,2,Mahogany,28,,,,
+3,2,Mahogany,19,,,,
+3,2,Doi,48,,,,
+3,2,Kaudamu,32,,,,
+3,2,Kaudamu,18,,,,
+3,2,Kaunicina,32,,,,
+3,2,Kaunicina,19,,,,
+3,2,Bauvudi,12,,,,
+3,3,Kadaba,42,,,Wadamu,1
+3,3,Maesopsis,18,,,Yalu,1
+3,3,Maesopsis,19,,,Wame,1
+3,3,Maesopsis,14,,,,
+3,3,Mahogany,22,,,,
+3,3,Mahogany,14,,,,
+3,3,Mahogany,12,,,,
+3,3,Mahogany,32,,,,
+3,3,African tulip,22,,,,
+3,3,African tulip,18,,,,
+3,3,African tulip,32,,,,
+3,3,Makita,14,,,,
+3,3,Rosarosa,24,,,,
+3,4,Sama,14,Clidermia,5,Wadamu,1
+3,4,Sama,16,,,Yalu,1
+3,4,Sama,18,,,Wame,1
+3,4,Mako,22,,,,
+3,4,Mako,20,,,,
+3,4,Mahogany,24,,,,
+3,4,Mahogany,16,,,,
+3,4,Mahogany,18,,,,
+3,4,Mahogany,22,,,,
+3,4,Mahogany,24,,,,
+3,4,Mahogany,19,,,,
+3,4,Mahogany,16,,,,
+3,4,Mahogany,18,,,,
+3,4,Mahogany,14,,,,
+3,4,Mahogany,12,,,,
+3,4,Mahogany,14,,,,
+3,4,Mahogany,12,,,,
+3,4,Mahogany,14,,,,
+3,4,Mahogany,12,,,,
+3,4,Mahogany,12,,,,
+3,4,Mahogany,24,,,,
+3,4,Mahogany,23,,,,
+3,4,Yasiyasi,16,,,,
+3,4,African tulip,25,,,,
+3,4,African tulip,24,,,,
+3,4,African tulip,23,,,,
+3,5,Sama,12,,,Wadamu,1
+3,5,Sama,11,,,Yalu,1
+3,5,Sama,20,,,Wame,1
+3,5,Sama,18,,,,
+3,5,Sama,16,,,,
+3,5,Maesopsis,18,,,,
+3,5,Maesopsis,17,,,,
+3,5,Kauvula,14,,,,
+3,5,Kauvula,16,,,,
+3,5,Kauvula,18,,,,
+3,5,Mahogany,20,,,,
+3,5,Mahogany,24,,,,
+3,5,Mahogany,12,,,,
+3,5,Mahogany,20,,,,
+3,5,Mahogany,18,,,,
+3,5,Mahogany,24,,,,
+3,5,Mahogany,18,,,,
+3,5,Balabala,14,,,,
+3,5,Kaudamu,19,,,,
