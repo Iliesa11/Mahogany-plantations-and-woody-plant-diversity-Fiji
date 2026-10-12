@@ -1,0 +1,166 @@
+Transect,Plot,Species,DBH,Seedlings,Abundance,Climbers,Number
+1,1,Marasa,10.0,Clidermia,1.0,wadamu,1.0
+1,2,Kauvula,34.0,Clidermia,2.0,,
+1,5,Mahogany,42.0,Clidermia,3.0,wadamu,1.0
+1,3,Kauvula,40.0,Cordia,1.0,wame,1.0
+1,2,Mako,38.0,Duva ni veikau,1.0,,
+1,2,Mahogany,18.0,Kaudamu,1.0,,
+1,3,Cordia,12.0,Kaudamu,1.0,Yalu,1.0
+1,4,Mahogany,34.0,Kaunigai,2.0,,
+1,1,Marasa,11.0,Kuasi,2.0,Yalu,1.0
+1,4,Balabala,11.0,Kuasi,1.0,Yalu,1.0
+1,2,Maesopsis,42.0,Maesopsis,1.0,,
+1,3,Mahogany,20.0,Maesopsis,1.0,,
+1,5,Mahogany,28.0,Maesopsis,1.0,Yalu,1.0
+1,1,Marasa,18.0,Mahogany,2.0,wame,1.0
+1,4,Balabala,12.0,Mahogany,1.0,wame,1.0
+1,5,Mahogany,38.0,Mahogany,1.0,,
+1,3,Mahogany,22.0,Sa,1.0,,
+1,4,Mahogany,42.0,Sacau,1.0,wame,1.0
+1,4,Balabala,10.0,Vasa ni veikau,1.0,wadamu,1.0
+1,2,Maesopsis,34.0,,3.0,,
+1,3,Mahogany,42.0,,8.0,wame,1.0
+1,1,Kauvula,40.0,,,,
+1,1,Dakua makadre,41.0,,,,
+1,1,Maesopsis,45.0,,,,
+1,1,Maesopsis,42.0,,,,
+1,1,Maesopsis,20.0,,,,
+1,1,Maesopsis,21.0,,,,
+1,1,Maesopsis,13.0,,,,
+1,1,Mahogany,20.0,,,,
+1,2,Maesopsis,40.0,,,,
+1,2,Maesopsis,12.0,,,,
+1,2,Maesopsis,16.0,,,,
+1,2,Dakua makadre,24.0,,,,
+1,2,Kaudamu,12.0,,,,
+1,2,Kaudamu,42.0,,,,
+1,2,Mahogany,10.0,,,,
+1,2,Koka,28.0,,,,
+1,2,Koka,26.0,,,,
+1,2,Marasa,18.0,,,,
+1,3,Mahogany,38.0,,,,
+1,3,Moli kana,18.0,,,,
+1,3,Moli kana,16.0,,,,
+1,3,Moli kana,16.0,,,,
+1,3,Dakua makadre,30.0,,,,
+1,3,Kaudamu,10.0,,,,
+1,3,Kaudamu,20.0,,,,
+1,3,Maesopsis,40.0,,,,
+1,4,Mahogany,36.0,,,,
+1,4,Maesopsis,16.0,,,,
+1,4,Maesopsis,12.0,,,,
+1,4,Maesopsis,54.0,,,,
+1,4,Kauvula,38.0,,,,
+1,4,Kauvula,36.0,,,,
+1,4,Moli kana,14.0,,,,
+1,4,Marasa,26.0,,,,
+1,4,Marasa,32.0,,,,
+1,4,Kaudamu,24.0,,,,
+1,4,Gadoa,18.0,,,,
+1,5,Cordia,12.0,,,,
+1,5,Cordia,11.0,,,,
+1,5,Tadalo,34.0,,,,
+1,5,Dakua makadre,42.0,,,,
+1,5,Sacau,18.0,,,,
+2,4,Mahogany,24.0,Clidermia,4.0,Birds nest fern,
+2,3,Kuasi,12.0,Clidermia,1.0,,
+2,3,Maesopsis,43.0,Cordia,3.0,Macropiper,1.0
+2,4,Kaunicina,33.0,Cordia,1.0,,
+2,3,Kaudamu,10.0,Dakua makadre,1.0,,
+2,2,Mahogany,35.0,Kaudamu,1.0,Yalu,1.0
+2,2,Kaudamu,20.0,Kauloa,1.0,,
+2,5,Kaudamu,14.0,Kaunicina,3.0,wame,1.0
+2,1,Maesopsis,28.0,Kavika,1.0,wadamu,1.0
+2,5,Yasidravu,18.0,Kuasi,1.0,,
+2,1,Maesopsis,45.0,Marasa,1.0,wame,1.0
+2,2,Mahogany,20.0,Marasa,1.0,wame,1.0
+2,3,Kaunicina,42.0,Marasa,1.0,wabosucu,1.0
+2,1,Cordia,12.0,Tadalo,1.0,,
+2,1,Maesopsis,38.0,Tomanu,1.0,Yalu,1.0
+2,2,Maesopsis,38.0,Yasiyasi,1.0,wadamu,1.0
+2,5,Sa,24.0,Yasiyasi,1.0,wadamu,1.0
+2,4,Mahogany,26.0,,,Yalu,
+2,3,Kaudamu,18.0,,1.0,,
+2,5,Kaudamu,40.0,,1.0,Yalu,1.0
+2,2,Mahogany,14.0,,1.0,Yalu,1.0
+2,4,Mahogany,24.0,,1.0,,
+2,5,Gadoa,11.0,,1.0,wadamu,1.0
+2,4,Kuluva,14.0,,4.0,,
+2,5,Maesopsis,42.0,,7.0,wame,1.0
+2,1,Maesopsis,18.0,,1.0,,
+2,5,African tulip,28.0,,1.0,wame,1.0
+2,1,Tomanu,14.0,,,,
+2,1,Tomanu,24.0,,,,
+2,1,,,,,,
+2,2,Kaudamu,18.0,,,,
+2,2,Kaudamu,16.0,,,,
+2,2,Kaudamu,18.0,,,,
+2,2,Kaudamu,42.0,,,,
+2,2,Yasiyasi,32.0,,,,
+2,2,Manawi,12.0,,,,
+2,3,Kaudamu,12.0,,,,
+2,3,Kaudamu,24.0,,,,
+2,3,Damanu,18.0,,,,
+2,3,Damanu,16.0,,,,
+2,3,Tadalo,10.0,,,,
+2,4,Yasiyasi,14.0,,,,
+2,4,Kaudamu,16.0,,,,
+2,5,Kuasi,48.0,,,,
+2,5,Mahogany,12.0,,,,
+2,5,Mahogany,20.0,,,,
+2,5,Maesopsis,28.0,,,,
+2,5,Maesopsis,18.0,,,,
+2,5,Maesopsis,20.0,,,,
+2,5,Yasiyasi,16.0,,,,
+2,5,Tadalo,34.0,,,,
+3,1,Mahogany,32.0,Bulu,1.0,,
+3,2,Maesopsis,18.0,Clidermia,5.0,Yalu,1.0
+3,4,Maesopsis,12.0,Clidermia,4.0,Yalu,1.0
+3,1,Mahogany,42.0,Clidermia,4.0,,
+3,5,Maesopsis,18.0,Clidermia,4.0,wame,1.0
+3,3,Balabala,10.0,Kuasi,2.0,wadamu,1.0
+3,5,Maesopsis,28.0,Kuasi,3.0,walai,1.0
+3,1,Mahogany,36.0,Maesopsis,2.0,Yalu,1.0
+3,2,Maesopsis,12.0,Maesopsis,1.0,walai,1.0
+3,3,Mahogany,12.0,Maesopsis,3.0,walai,1.0
+3,5,,,Maesopsis,3.0,,
+3,2,Maesopsis,16.0,Mahogany,1.0,wame,1.0
+3,3,Maesopsis,18.0,Mahogany,4.0,wame,1.0
+3,4,Dakua makadre,46.0,Mahogany,3.0,wame,1.0
+3,5,Maesopsis,16.0,Mahogany,2.0,wadamu,1.0
+3,5,Sama,10.0,Mahogany,2.0,,
+3,1,Mahogany,32.0,Marasa,1.0,wame,1.0
+3,4,,,Sinu ni veikau,2.0,,
+3,5,Mahogany,42.0,Yasiyasi,1.0,,
+3,4,Maesopsis,10.0,,,walai,1.0
+3,4,Mahogany,56.0,,,wadamu,1.0
+3,5,Mako,38.0,,,,
+3,3,Mahogany,20.0,,2.0,Yalu,1.0
+3,5,Mahogany,28.0,,2.0,,
+3,2,Mahogany,12.0,,2.0,,
+3,3,Mahogany,30.0,,1.0,,
+3,1,Damanu,32.0,,2.0,,
+3,1,Kaudamu,42.0,,8.0,dryanria,1.0
+3,4,Pine,32.0,,2.0,,
+3,5,Maesopsis,14.0,,1.0,,
+3,1,Balabala,10.0,,,,
+3,1,Kauvula,42.0,,,,
+3,1,Maesopsis,40.0,,,,
+3,1,Maesopsis,12.0,,,,
+3,2,African tulip,10.0,,,,
+3,2,Mahogany,32.0,,,,
+3,2,Kaunicina,48.0,,,,
+3,2,Nunu,20.0,,,,
+3,3,Marasa,16.0,,,,
+3,3,Kaudamu,14.0,,,,
+3,3,Kaunicina,34.0,,,,
+3,3,Yasidravu,10.0,,,,
+3,3,Kaudamu,24.0,,,,
+3,4,Maesopsis,12.0,,,,
+3,4,Marasa,18.0,,,,
+3,4,Mahogany,42.0,,,,
+3,4,Mahogany,46.0,,,,
+3,5,Mahogany,38.0,,,,
+3,5,Vadra,10.0,,,,
+3,5,Aumunu,16.0,,,,
+3,5,African tulip,32.0,,,,
