@@ -3,8 +3,8 @@
 # and secondary native forest, Viti Levu, Fiji — REVISED ANALYSIS SCRIPT
 #
 # Authors : Iliesa Koroi, Ole R. Vetaas, Tamara Osborne-Naikatini
-# Target  : Journal of Agriculture and Forestry in the Pacific (JAFPac)
-# Version : 2026-10-10. Supersedes "Corrected mahogany vegetation composition
+# Target  : Pacific Science (University of Hawai'i Press)
+# Version : 2026-10-26. Supersedes "Corrected mahogany vegetation composition
 #           and richness analysis.R" (1,248 lines; New Forests submission).
 #
 # -----------------------------------------------------------------------------
@@ -94,6 +94,20 @@
 # 26. (11 Oct 2026) S17: category-free check of tree richness in plantation
 #     plots against mahogany share of basal area (FHCL criteria unavailable).
 # 27. (11 Oct 2026) S17b: the same share effect adjusted for log(stems).
+# 28. (13 Oct 2026) Target journal now Pacific Science: figures exported at
+#     140 mm (two-column width); each figure plus caption must fit 197 mm.
+#     Supplementary figures renumbered in citation order: S1 frequency,
+#     S2 pooled woody richness, S3 seedling rank-abundance, S4 detection.
+#     Main figures renumbered in citation order: 2 accumulation, 3 species
+#     overlap, 4 richness, 5 NMDS (tables likewise: old Table 5 is Table 2).
+# 29. (26 Oct 2026) At 140 mm the one-row legends of the accumulation and NMDS
+#     figures were cut off ("Mixe"): legends now in two rows. The stress
+#     line under the NMDS removed (it repeats the caption).
+# 30. (26 Oct 2026) data_dir set to the author's Pacific Science folder; the
+#     script checks that the folder and all nine input files exist.
+# 31. (26 Oct 2026) Fig. S4 y-axis title was clipped at 90 mm height: now on
+#     two lines. Fig. S1 labels Podocarpus (kuasi) at genus level, as in the
+#     Methods.
 #
 # Not errors in the code, but they must be reported correctly in the Methods:
 #   * Trees were recorded from DBH >= 10 cm in practice (1 of 1,911 stems
@@ -185,28 +199,24 @@ filter <- dplyr::filter
 set.seed(20260930)  # reproducible permutations, NMDS starts and SACs
 
 # ---- PATHS -------------------------------------------------------------------
-# Folder holding the nine input CSV files. By default this is the folder that
-# contains THIS script, found automatically when the script is run with
-# source("...") or from RStudio; otherwise the current working directory.
-# To override, replace the next block with one line, e.g.
-#   data_dir <- "C:/Users/<you>/Documents/mahogany_vegetation"
-data_dir <- local({
-  from_source <- tryCatch(dirname(normalizePath(sys.frame(1)$ofile)),
-                          error = function(e) NULL)
-  from_rstudio <- tryCatch(
-    if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable())
-      dirname(rstudioapi::getSourceEditorContext()$path) else NULL,
-    error = function(e) NULL)
-  candidates <- c(from_source, from_rstudio, getwd())
-  candidates <- candidates[nzchar(candidates)]
-  hit <- candidates[file.exists(file.path(candidates, "NKR_native.csv"))]
-  if (length(hit) == 0) {
-    stop("Cannot find NKR_native.csv. Looked in: ", paste(unique(candidates), collapse = " | "),
-         "\nSet data_dir to the folder holding the nine CSV files, or use ",
-         "Session > Set Working Directory > To Source File Location in RStudio.")
-  }
-  hit[1]
-})
+# Folder holding the nine input CSV files (author's working directory). If the
+# files move, change this one line. The script stops with a clear message if
+# the folder or any input file is missing.
+data_dir <- "C:/Users/Administrator/Desktop/PhD Chapter Drafts/Chapter 4_Vegetation paper/Pacific Science"
+# Use forward slashes in this path: R reads a backslash as an escape character.
+required_files <- c("NKR_native.csv", "NKR_stocked.csv", "NKR_unstocked.csv", "NKR_mixed.csv",
+                    "NHL_native.csv", "NHL_stocked.csv", "NHL_unstocked.csv", "NHL_mixed.csv",
+                    "taxon_lookup.csv")
+if (!dir.exists(data_dir)) {
+  stop("data_dir does not exist: ", data_dir,
+       "\nCheck the folder path (use forward slashes) and edit the data_dir line.")
+}
+missing_files <- required_files[!file.exists(file.path(data_dir, required_files))]
+if (length(missing_files) > 0) {
+  stop("These input files are missing from ", data_dir, ": ",
+       paste(missing_files, collapse = ", "),
+       "\nNote the file names: NHL_native.csv (with underscore), not NHLnative.csv.")
+}
 message("Reading data from: ", normalizePath(data_dir))
 out_dir  <- file.path(data_dir, "outputs")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
@@ -709,7 +719,9 @@ fig_nmds <- ggplot(nmds_df |> mutate(site = factor(site, levels = sites)),
   scale_fill_manual(values = ft_fill, labels = ft_labels, name = "Forest type") +
   scale_linetype_manual(values = nmds_linetype, labels = ft_labels, name = "Forest type") +
   facet_wrap(~ site, labeller = as_labeller(c(NKR = "(a) Nukurua", NHL = "(b) Nausori Highlands"))) +
-  labs(caption = sprintf("Three-dimensional solution, axes 1 and 2 shown. Stress = %.2f", nmds_fig$stress)) +
+  # Stress is reported in the caption, not on the figure (Pacific Science:
+  # do not repeat caption information on the illustration).
+  guides(fill = guide_legend(nrow = 2), linetype = guide_legend(nrow = 2)) +
   coord_equal() + theme_classic(base_size = 10) +
   theme(legend.position = "bottom", legend.key.width = grid::unit(10, "mm"))
 # If one or two points still sit far from the rest, list them from
@@ -1081,6 +1093,8 @@ fig_sac <- ggplot(sac_plot, aes(x, S, linetype = ft)) +
                          labels = ft_labels, name = "Forest type") +
   facet_grid(site ~ type, scales = "free_x") +
   labs(x = "Plots (left) or individuals (right) sampled", y = "Expected number of taxa") +
+  # Two-row legend so the last forest type is not cut off at 140 mm width.
+  guides(linetype = guide_legend(nrow = 2), linewidth = guide_legend(nrow = 2)) +
   theme_classic(base_size = 10) +
   theme(legend.position = "bottom", legend.key.width = grid::unit(12, "mm"))
 
@@ -1150,7 +1164,7 @@ draw_richness <- function(resp, ncol_lab = TRUE) {
   p
 }
 fig_rich   <- draw_richness(c("tree_rich", "seed_rich", "seed_ab"))  # Fig. 3
-fig_pooled <- draw_richness("woody_rich")                           # Online Resource Fig. S4
+fig_pooled <- draw_richness("woody_rich")                           # Supplemental Material 3, Fig. S2
 
 # =============================================================================
 # 9. Retained from the previous script (corrected): frequency, rank-abundance,
@@ -1191,7 +1205,12 @@ pub_names <- lookup |> distinct(botanical, name_for_publication) |>
 top_taxa <- top_taxa |>
   mutate(botanical = as.character(botanical)) |>
   left_join(pub_names, by = "botanical") |>
-  mutate(label = forcats::fct_reorder(coalesce(name_for_publication, as.character(botanical)), mean_freq)) |>
+  mutate(label = coalesce(name_for_publication, as.character(botanical)),
+         # Kuasi is reported at genus level in the paper (Methods; POWO). Veitchia
+         # sessilifolia is not relabelled because the data hold a separate
+         # Veitchia sp.; it does not appear among the plotted taxa.
+         label = dplyr::recode(label, "Podocarpus neriifolius" = "Podocarpus sp."),
+         label = forcats::fct_reorder(label, mean_freq)) |>
   filter(freq_pct > 0)
 fig_freq <- ggplot(top_taxa, aes(freq_pct, label, fill = ft)) +
   geom_col(position = position_dodge2(width = 0.8, preserve = "single"), width = 0.75,
@@ -1244,13 +1263,15 @@ fig_detect <- ggplot(detect_df, aes(N, P_detect)) +
   geom_vline(xintercept = detect_thresholds$N_required, linetype = "dotted") +
   scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
   labs(x = "Individuals of a species in the 100 m² plot (N)",
-       y = "Probability of detection in the 1 m² seedling subsample") +
+       y = "Probability of detection\nin the 1 m² seedling subsample") +
   theme_classic(base_size = 10)
 
 # =============================================================================
-# 10. Export figures (JAFPac: separate files; TIFF 600 dpi greyscale + EPS)
+# 10. Export figures (Pacific Science: separate TIFF/EPS files, >= 300 dpi at
+#     final size; widths 67 mm one column or 140 mm two columns; figure plus
+#     caption <= 197 mm tall). TIFF 600 dpi greyscale + EPS.
 # =============================================================================
-save_fig <- function(p, name, w = 170, h = 150) {
+save_fig <- function(p, name, w = 140, h = 150) {
   tryCatch({
     ggsave(file.path(out_dir, paste0(name, ".tiff")), p, width = w, height = h, units = "mm",
            dpi = 600, compression = "lzw", bg = "white")
@@ -1258,14 +1279,14 @@ save_fig <- function(p, name, w = 170, h = 150) {
            device = grDevices::cairo_ps, bg = "white")
   }, error = function(e) warning("Could not save ", name, ": ", conditionMessage(e)))
 }
-save_fig(fig_rich,  "Figure_3_richness", h = 190)
-save_fig(fig_nmds,  "Figure_4_NMDS", h = 110)
-save_fig(fig_upset, "Figure_2_species_overlap", h = 170)
-save_fig(fig_sac,   "Figure_5_accumulation", h = 150)
+save_fig(fig_rich,  "Figure_4_richness", h = 165)
+save_fig(fig_nmds,  "Figure_5_NMDS", h = 110)
+save_fig(fig_upset, "Figure_3_species_overlap", h = 160)
+save_fig(fig_sac,   "Figure_2_accumulation", h = 140)
 save_fig(fig_freq,  "Figure_S1_frequency", h = 230)
-save_fig(fig_rac,   "Figure_S2_seedling_rank_abundance", h = 100)
-save_fig(fig_detect, "Figure_S3_detection_probability", w = 120, h = 90)
-save_fig(fig_pooled, "Figure_S4_pooled_woody_richness", h = 80)
+save_fig(fig_rac,   "Figure_S3_seedling_rank_abundance", h = 100)
+save_fig(fig_detect, "Figure_S4_detection_probability", w = 120, h = 90)
+save_fig(fig_pooled, "Figure_S2_pooled_woody_richness", h = 80)
 
 writeLines(capture.output(sessionInfo()), file.path(out_dir, "sessionInfo.txt"))
 message("Done. Outputs written to ", normalizePath(out_dir))
